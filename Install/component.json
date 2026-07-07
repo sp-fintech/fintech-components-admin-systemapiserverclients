@@ -1,0 +1,48 @@
+{
+	"name" : "Api Server Clients",
+	"route" : "system/api/server/clients",
+	"description" : "<p>List Api server clients via this component</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "admin",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-admin-systemapiserverclients",
+	"class" : "Apps\\Fintech\\Components\\System\\Api\\Server\\Clients\\ClientsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.16",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"menu" : "false",
+	"widgets" : [],
+	"filters" : [],
+	"settings" : []
+}
